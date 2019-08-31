@@ -20,6 +20,11 @@
   - browser-sync
   - del
 
+## How to run
+
+- open command line in mac/linux/windows
+  - type `npm start` or `gulp`
+
 ## TODOs
 
 - more details against this kit
