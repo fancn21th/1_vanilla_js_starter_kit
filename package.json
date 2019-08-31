@@ -6,9 +6,14 @@
   "scripts": {
     "start": "gulp"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vanilla js starter kit",
+    "gulp",
+    "gulp-inject",
+    "browser-sync"
+  ],
+  "author": "Fan, Yi-Jie",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
