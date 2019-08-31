@@ -1,4 +1,4 @@
-# Plain Javascript Starter Kit
+# Vanilla Javascript Starter Kit
 
 ## TODOs
 
