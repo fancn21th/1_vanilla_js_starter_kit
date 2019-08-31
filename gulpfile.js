@@ -36,6 +36,12 @@ function clean(cb) {
 // BUILD TASK
 const build = series(clean, parallel(copyVendorJs, copyAppJs, copyCss), index);
 
+// RELOAD
+function sync(cb) {
+  browserSync.reload();
+  cb();
+}
+
 // SERVE
 function serve(cb) {
   // Serve files from the root of this project
@@ -45,7 +51,7 @@ function serve(cb) {
     }
   });
 
-  watch(filesToWatch, { delay: 500 }, series(build));
+  watch(filesToWatch, { delay: 500 }, series(build, sync));
 }
 
 exports.build = build;
