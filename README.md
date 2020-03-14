@@ -17,9 +17,9 @@
   - type `npm start` or `gulp`
 
 - convention
-  - put biz logic js in `src/app` folder
-  - put custom css js in `src/assets/css` folder
-  - put vendor js in `src/assets/js/vendor` folder
+  - put biz logic js files in `src/app` folder
+  - put custom css files in `src/assets/css` folder
+  - put vendor js files in `src/assets/js/vendor` folder
 
 ## What included
 
