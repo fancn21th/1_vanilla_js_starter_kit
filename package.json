@@ -1,5 +1,5 @@
 {
-  "name": "vanilla_js_starter_kit",
+  "name": "isolation_test_vanilla_js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "gulp"
   },
   "keywords": [
-    "vanilla js starter kit",
+    "vanilla javascript isolation test template",
     "gulp",
     "gulp-inject",
     "browser-sync"

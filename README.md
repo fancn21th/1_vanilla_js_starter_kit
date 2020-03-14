@@ -1,30 +1,29 @@
-# Vanilla Javascript Starter Kit
+# Vanilla Javascript Isolation-Test Template
 
-## Why it is created
+## Why created
 
-- As a starter kit whenever you want to test something in js against browser
-- Css/Js injection out of box
-- Hot reload out of box
+- KISS principle is our motto to program
+- We should give a feature test a standalone isolation-test environment
+- This is a "simple and stupid" template for vanilla js
 
-## Why not webpack
+## How to use it
 
-- More friendly when it comes to understanding how this kit works
-- Less overwhelming for newbie
-- Just want to do it in a simple way with gulp
+- install
 
-## What are included
-
-- Dev Dependencies
-  - gulp 4.0 +
-  - gulp inject
-  - browser-sync
-  - del
-
-## How to run
+  - type `npm i` or `yarn`
 
 - open command line in mac/linux/windows
+
   - type `npm start` or `gulp`
 
-## TODOs
+- convention
+  - put biz logic js in `src/app` folder
+  - put custom css js in `src/assets/css` folder
+  - put vendor js in `src/assets/js/vendor` folder
 
-- more details against this kit
+## What included
+
+- gulp 4.0
+- gulp inject
+- browser-sync
+- del
